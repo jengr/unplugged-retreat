@@ -511,7 +511,62 @@ FAQ page
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*?
+  /*General styles*/
+  .content-wrapper {
+    max-width: 960px;
+  }
 
+/*Header*/
+
+/*Hero Area*/
+.hero-area h1 {
+  width: 53%;
+}
+
+/*Aside*/
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 27%;
+    }
+
+/*Feautures*/
+.features h2{
+  width: 73%;
+    }
+
+.features article {
+  flex-basis: 30%;
+}
+
+/*Reviews*/
+
+.reviews article div {
+  width: 40%;
+}
+
+/*=============================================================================
+About page
+==============================================================================*/
+.mission h2,
+.contact-section .content-wrapper h2 {
+        width: 73%;
+    }
+
+/*=============================================================================
+    FAQ page
+==============================================================================*/
+
+.faq h1 {
+  width: 100%;
+}
+
+.faq article {
+  width: 40%;
+}
 }
 
 /* ==========================================================================
