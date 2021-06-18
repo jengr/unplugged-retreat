@@ -656,6 +656,10 @@ About page
   width: 45%;
 }
 
+.map figure {
+  padding-bottom: 45.5%;
+}
+
 .contact-section .content-wrapper h2{
   width: 80%;
 }
@@ -732,6 +736,10 @@ About page
 .contact-section .content-wrapper h2 {
         width: 73%;
     }
+
+.map figure {
+  padding-bottom: 37.5%;
+}
 
 /*=============================================================================
     FAQ page
