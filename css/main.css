@@ -231,6 +231,10 @@ footer .social p {
   justify-content: center;
   align-items: center;
   background-color: #4e6f55;
+  border-radius: 50%;
+  width: 12%;
+  height: 100%;
+  line-height: 2em;
 }
 
 footer .copyright{
